@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+ main {
+    background-color: rgba(188, 185, 182, 0.798);
+ }
+ div#imagem > img{
+    width:65vw;
+ }
+ div#imagem > h3{
+    width: 35vw;
+ }
+ div#imagem > ol > li {
+    width: 30vw;
+ }
+ div#house {
+    width:70vw;
+ }
+ div#house > ol > h3 {
+    width: 53vw;
+ }
+ div#house > ol > input{
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+}

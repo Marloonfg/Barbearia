@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: url(../imagens/header.jpg);
+    min-height: 280px;
+    background-position: right center;
+   
+}
+header > h1 {
+    color: rgb(203, 203, 12);
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.147);
+    
+}
+header > p {
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 0px black;
+
+}
+main > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.633);
+}
+main > p {
+    text-align: center;
+    padding-bottom: 60px;
+
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#foto1 {
+    width: 150px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.835);
+}
+#foto2 {
+    width: 127px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.835);
+}
+#foto3 {
+    width:160px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.835);
+}
+li > p {
+    background-color:  rgb(203, 203, 12); ;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.835);
+}
+div#imagem > img {
+    width: 59vw;
+    height: 290px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.835);
+}
+div#imagem > ol > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    
+}
+div#imagem > ol > li {
+    width: 170px;
+    height: 30px;
+    padding-left: 10px;  
+}
+div#imagem > ol > input {
+    background-color: rgb(203, 203, 12);
+    padding: 8px 8px 8px 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+div#imagem > ol > input:hover{
+    background-color:rgba(203, 63, 12, 0.616);
+}
+div#imagem {
+    list-style: none;
+    display: flex;
+    padding-top: 50px;
+}
+div#barbeiros > h2 {
+    padding-top: 50px;
+    padding-bottom: 30px; 
+    text-align: center;
+}
+ul#barber {
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#barber1 {
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+#barber2 {
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+#barber3 {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+div#house {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    width: 55vw;
+    height: 230px;
+}
+div#house > ol > h3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px ;
+    width: 250px;
+    margin: 0px 0px 15px 0px;
+     
+
+}
+div#house > ol > p {
+    width: 100px;
+    height: 148px;
+}
+div#house > ol > input {
+    background-color:  rgb(203, 203, 12);
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+div#house > ol > input:hover {
+    background-color:rgba(203, 63, 12, 0.616);
+}
