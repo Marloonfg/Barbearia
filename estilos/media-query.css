@@ -1,26 +1,307 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) {
- main {
-    background-color: rgba(188, 185, 182, 0.798);
- }
- div#imagem > img{
-    width:65vw;
- }
- div#imagem > h3{
-    width: 35vw;
- }
- div#imagem > ol > li {
-    width: 30vw;
- }
- div#house {
-    width:70vw;
- }
- div#house > ol > h3 {
-    width: 53vw;
- }
- div#house > ol > input{
-    padding-left: 30px;
-    padding-right: 30px;
- }
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    .carousel-inner .carousel-item h1 {
+        color: rgba(255, 247, 0, 0.842);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+     
+     }
+     .carousel-inner .carousel-item h1::before {
+         content: '';
+         background-color: rgba(255, 247, 0, 0.842);
+         display: block;
+         margin-right: 20px;
+         height: 3px;
+         width: 30px;
+     }
+     .carousel-inner .carousel-item h1::after {
+         content: '';
+         background-color: rgba(255, 247, 0, 0.842);
+         display: block;
+         margin-left: 10px;
+         height: 3px;
+         width: 30px;
+     }
+
+         /* STYLO */
+    #team-area, .container .main-title {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+    }
+    #team-area .container .main-title::before {
+        content: '';
+        background-color: black;
+        height: 3px;
+        width: 50px;
+        display: block;
+        margin-left: 260px;
+        margin-right: 10px;
+    }
+    #team-area .container .main-title::after {
+        content: '';
+        background-color: black;
+        height: 3px;
+        width: 50px;
+        display: block;
+        margin-left: 10px;
+    }
+        /* Serviços */
+#about-area .main-servi{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
+
+#about-area .main-servi::before {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin-left: 260px;
+    margin-right: 10px;
+}
+#about-area .main-servi::after {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin-left: 10px;
+}
+#about-list li{
+    padding-bottom: 1px;
+}
+
+/* Barbeiros */
+#team-area .container .main-barber {
+    padding-top: 50px; 
+    display: flex;
+    align-items: center;
+ }
+ #team-area .container .main-barber::after{
+     content: '';
+     background-color: black;
+     height: 3px;
+     width: 50px;
+     margin-left: 10px;
+ }
+ #team-area .container .main-barber::before{
+     content: '';
+     background-color: black;
+     height: 3px;
+     width: 50px;
+     margin-left: 260px;
+     margin-right: 10px;
+ }
+  /* Filial */
+#about-filial .main-filial {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+#about-filial .main-filial::after {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    margin-left: 10px;
+}
+#about-filial .main-filial::before {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    margin-left: 260px;
+    margin-right: 10px;
+}
+#about-filial .about-title {
+    padding-left: 140px;
+   }
+
+
+    #about-area img {
+        width: 100%;
+        height: 300px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.622);   
+    }
+    #about-list li {
+        line-height: 27px;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    #team-area .card-barber {
+        background-color: rgba(255, 187, 0, 0.654);
+        margin-left: 100px;
+        margin-top: -25px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 425px) {
+    /* Header */
+    .carousel-inner .carousel-item h1 {
+       color: rgba(255, 247, 0, 0.842);
+       display: flex;
+       align-items: center;
+       text-align: center;
+       margin-left: 15px;
+    
+    }
+    .carousel-inner .carousel-item h1::before {
+        content: '';
+        background-color: rgba(255, 247, 0, 0.842);
+        display: block;
+        margin-right: 20px;
+        height: 3px;
+        width: 30px;
+    }
+    .carousel-inner .carousel-item h1::after {
+        content: '';
+        background-color: rgba(255, 247, 0, 0.842);
+        display: block;
+        margin-left: 20px;
+        height: 3px;
+        width: 30px;
+    }
+
+    /* STYLO */
+    #team-area, .container .main-title {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+    }
+    #team-area .container .main-title::before {
+        content: '';
+        background-color: black;
+        height: 3px;
+        width: 50px;
+        display: block;
+        margin-left: 110px;
+        margin-right: 10px;
+    }
+    #team-area .container .main-title::after {
+        content: '';
+        background-color: black;
+        height: 3px;
+        width: 50px;
+        display: block;
+        margin-left: 10px;
+    }
+
+    /* Serviços */
+#about-area .main-servi{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#about-area .main-servi::before {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+#about-area .main-servi::after {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin-left: 10px;
+}
+
+/* Barbeiros */
+#team-area .container .main-barber {
+    padding-top: 50px; 
+    display: flex;
+    align-items: center;
+ }
+ #team-area .container .main-barber::after{
+     content: '';
+     background-color: black;
+     height: 3px;
+     width: 50px;
+     margin-left: 10px;
+ }
+ #team-area .container .main-barber::before{
+     content: '';
+     background-color: black;
+     height: 3px;
+     width: 50px;
+     margin-left: 110px;
+     margin-right: 10px;
+ }
+ /* Filial */
+#about-filial .main-filial {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+#about-filial .main-filial::after {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    margin-left: 10px;
+}
+#about-filial .main-filial::before {
+    content: '';
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+/* Servicos */
+
+    #about-area h2 {
+        display: none;
+    }
+    .carousel-inner .carousel-item img {
+        background-position: bottom;
+    }
+    #about-area .about-title {
+        margin-left: 90px;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+    #about-area img {
+        display: none;  
+    }
+    #about-list li {
+        padding-left: 50px;
+    }
+    #about-list .main-btn {
+        margin-left: 150px;
+        margin-top: 20px;
+
+    }
+    /* FILIAL */
+   #about-filial .about-title {
+    padding-left: 180px;
+   }
+}  
